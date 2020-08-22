@@ -1,0 +1,239 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    127.0.0.1             127.0.0.53            DNS      87     Standard query 0x7263 A go.microsoft.com OPT
+
+Frame 1: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 52236, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000015218    127.0.0.1             127.0.0.53            DNS      87     Standard query 0x6eb1 AAAA go.microsoft.com OPT
+
+Frame 2: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 52236, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.026931987    127.0.0.1             127.0.0.1             UDP      70     51257 → 40868 Len=28
+
+Frame 3: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 51257, Dst Port: 40868
+Data (28 bytes)
+
+0000  19 21 c0 3c 35 36 37 38 3e 20 66 69 65 6c 64 33   .!.<5678> field3
+0010  3d 30 26 66 69 65 6c 64 34 3d 30 30               =0&field4=00
+    Data: 1921c03c353637383e206669656c64333d30266669656c64…
+    [Length: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.026945220    127.0.0.1             127.0.0.1             ICMP     98     Destination unreachable (Port unreachable)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.034388168    127.0.0.53            127.0.0.1             DNS      222    Standard query response 0x6eb1 AAAA go.microsoft.com CNAME go.microsoft.com.edgekey.net CNAME e11290.dspg.akamaiedge.net AAAA 2a02:26f0:2d:598::2c1a AAAA 2a02:26f0:2d:5a0::2c1a OPT
+
+Frame 5: 222 bytes on wire (1776 bits), 222 bytes captured (1776 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 52236
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.034612179    127.0.0.53            127.0.0.1             DNS      182    Standard query response 0x7263 A go.microsoft.com CNAME go.microsoft.com.edgekey.net CNAME e11290.dspg.akamaiedge.net A 104.108.177.152 OPT
+
+Frame 6: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 52236
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.196309165    127.0.0.1             127.0.0.53            DNS      106    Standard query 0x8eb7 A download.visualstudio.microsoft.com OPT
+
+Frame 7: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 47049, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.196326267    127.0.0.1             127.0.0.53            DNS      106    Standard query 0xa3c4 AAAA download.visualstudio.microsoft.com OPT
+
+Frame 8: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 47049, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.239341664    127.0.0.53            127.0.0.1             DNS      229    Standard query response 0x8eb7 A download.visualstudio.microsoft.com CNAME 2-01-5830-0005.cdx.cedexis.net CNAME 4316b.wpc.azureedge.net CNAME cs10.wpc.v0cdn.net A 68.232.34.200 OPT
+
+Frame 9: 229 bytes on wire (1832 bits), 229 bytes captured (1832 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 47049
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.243563853    127.0.0.53            127.0.0.1             DNS      241    Standard query response 0xa3c4 AAAA download.visualstudio.microsoft.com CNAME 2-01-5830-0005.cdx.cedexis.net CNAME 4316b.wpc.azureedge.net CNAME cs10.wpc.v0cdn.net AAAA 2606:2800:133:f17:19e8:2356:251b:2a9 OPT
+
+Frame 10: 241 bytes on wire (1928 bits), 241 bytes captured (1928 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 47049
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 5.173053366    127.0.0.1             127.0.0.1             UDP      70     51257 → 40868 Len=28
+
+Frame 11: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 51257, Dst Port: 40868
+Data (28 bytes)
+
+0000  19 21 c0 3c 35 36 37 38 3e 20 66 69 65 6c 64 33   .!.<5678> field3
+0010  3d 30 26 66 69 65 6c 64 34 3d 30 30               =0&field4=00
+    Data: 1921c03c353637383e206669656c64333d30266669656c64…
+    [Length: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 5.173085712    127.0.0.1             127.0.0.1             ICMP     98     Destination unreachable (Port unreachable)
+
+Frame 12: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 10.384870078   127.0.0.1             127.0.0.1             UDP      70     51257 → 40868 Len=28
+
+Frame 13: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 51257, Dst Port: 40868
+Data (28 bytes)
+
+0000  19 21 c0 3c 35 36 37 38 3e 20 66 69 65 6c 64 33   .!.<5678> field3
+0010  3d 30 26 66 69 65 6c 64 34 3d 30 30               =0&field4=00
+    Data: 1921c03c353637383e206669656c64333d30266669656c64…
+    [Length: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 10.384916997   127.0.0.1             127.0.0.1             ICMP     98     Destination unreachable (Port unreachable)
+
+Frame 14: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 15.467315434   127.0.0.1             127.0.0.53            DNS      96     Standard query 0x57a1 A vortex.data.microsoft.com OPT
+
+Frame 15: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 49520, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 15.467358341   127.0.0.1             127.0.0.53            DNS      96     Standard query 0xc89a AAAA vortex.data.microsoft.com OPT
+
+Frame 16: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.53
+User Datagram Protocol, Src Port: 49520, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 15.504869947   127.0.0.53            127.0.0.1             DNS      163    Standard query response 0x57a1 A vortex.data.microsoft.com CNAME asimov.vortex.data.trafficmanager.net A 65.55.44.109 OPT
+
+Frame 17: 163 bytes on wire (1304 bits), 163 bytes captured (1304 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 49520
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 15.511973436   127.0.0.53            127.0.0.1             DNS      168    Standard query response 0xc89a AAAA vortex.data.microsoft.com CNAME asimov.vortex.data.trafficmanager.net CNAME global.vortex.data.trafficmanager.net OPT
+
+Frame 18: 168 bytes on wire (1344 bits), 168 bytes captured (1344 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.53, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 53, Dst Port: 49520
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 15.519882445   127.0.0.1             127.0.0.1             UDP      70     51257 → 40868 Len=28
+
+Frame 19: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 51257, Dst Port: 40868
+Data (28 bytes)
+
+0000  19 21 c0 3c 35 36 37 38 3e 20 66 69 65 6c 64 33   .!.<5678> field3
+0010  3d 30 26 66 69 65 6c 64 34 3d 30 30               =0&field4=00
+    Data: 1921c03c353637383e206669656c64333d30266669656c64…
+    [Length: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 15.519905092   127.0.0.1             127.0.0.1             ICMP     98     Destination unreachable (Port unreachable)
+
+Frame 20: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 20.649065539   127.0.0.1             127.0.0.1             UDP      70     51257 → 40868 Len=28
+
+Frame 21: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 51257, Dst Port: 40868
+Data (28 bytes)
+
+0000  19 21 c0 3c 35 36 37 38 3e 20 66 69 65 6c 64 33   .!.<5678> field3
+0010  3d 30 26 66 69 65 6c 64 34 3d 30 30               =0&field4=00
+    Data: 1921c03c353637383e206669656c64333d30266669656c64…
+    [Length: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 20.649085055   127.0.0.1             127.0.0.1             ICMP     98     Destination unreachable (Port unreachable)
+
+Frame 22: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 25.867474502   127.0.0.1             127.0.0.1             UDP      70     51257 → 40868 Len=28
+
+Frame 23: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 51257, Dst Port: 40868
+Data (28 bytes)
+
+0000  19 21 c0 3c 35 36 37 38 3e 20 66 69 65 6c 64 33   .!.<5678> field3
+0010  3d 30 26 66 69 65 6c 64 34 3d 30 30               =0&field4=00
+    Data: 1921c03c353637383e206669656c64333d30266669656c64…
+    [Length: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 25.867519255   127.0.0.1             127.0.0.1             ICMP     98     Destination unreachable (Port unreachable)
+
+Frame 24: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Internet Control Message Protocol
